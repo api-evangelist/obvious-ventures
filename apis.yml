@@ -1,0 +1,80 @@
+aid: obvious-ventures
+name: Obvious Ventures
+description: >-
+  Obvious Ventures is a San Francisco-based early-stage venture capital firm
+  founded in 2014 by Ev Williams, James Joaquin, and Vishal Vasishth, investing
+  in entrepreneurs building "world positive" companies that solve humanity's
+  biggest problems through technology. The firm invests across three thesis
+  pillars: planetary health (sustainable energy, food, mobility, climate), human
+  health and longevity (healthcare, biotech, wellness), and economic health
+  (fintech, the future of work, robotics, and inclusive systems). Obvious writes
+  approximately 10 new checks per year, typically $5M to $12M into seed and
+  Series A rounds, deliberately keeping fund sizes small enough that a single
+  durable public company can return an entire fund. It closed its fifth fund at
+  $360,360,360 in early 2026 and has backed 90+ companies since inception,
+  including Beyond Meat, Planet, Gusto, Recursion, Devoted Health, Diamond
+  Foundry, and Proterra. Obvious is a Certified B Corporation headquartered at
+  190 Pacific Avenue, San Francisco, CA.
+x-type: venture-capital
+x-category: Venture Capital
+image: https://obvious.com/favicon.ico
+tags:
+  - Venture Capital
+  - Seed
+  - Series A
+  - Sustainability
+  - Health
+  - Fintech
+  - Climate
+  - Impact
+  - North America
+created: '2026-07-17'
+modified: '2026-07-17'
+specificationVersion: '0.20'
+apis: []
+common:
+  - type: Website
+    url: https://obvious.com/
+  - type: Portfolio
+    url: https://obvious.com/portfolio/
+  - type: Portfolio
+    url: portfolio/obvious-ventures-portfolio.yml
+  - type: Team
+    url: https://obvious.com/team/
+  - type: Team
+    url: team/obvious-ventures-team.yml
+  - type: InvestmentThesis
+    url: https://obvious.com/about/
+  - type: Blog
+    url: https://obvious.com/ideas/
+  - type: News
+    url: https://obvious.com/press/
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/obvious-ventures/
+  - type: Twitter
+    url: https://x.com/obviousvc
+  - type: Crunchbase
+    url: https://www.crunchbase.com/organization/obvious-ventures
+  - type: Features
+    data:
+      - 'Stage: Seed, Series A (early-stage)'
+      - 'Typical check: $5M-$12M'
+      - 'Sectors: planetary health, human health & longevity, economic health'
+      - 'Geography: primarily North America'
+      - 'Fund V: $360,360,360 (2026)'
+      - 'Pace: ~10 new investments per year'
+      - 'Founded: 2014'
+      - 'HQ: 190 Pacific Avenue, San Francisco, CA 94111'
+      - 'B Corp: Certified'
+    sources:
+      - https://obvious.com/
+      - https://techcrunch.com/2026/01/26/obvious-ventures-lands-fund-five-with-a-360-degree-view-of-planetary-human-economic-health/
+    updated: '2026-07-17'
+maintainers:
+  - FN: Kin Lane
+    email: info@apievangelist.com
+    url: https://apievangelist.com
+  - FN: APIs.json
+    url: http://apisjson.org
+  - FN: Obvious Ventures
+    url: https://obvious.com

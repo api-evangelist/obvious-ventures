@@ -3,9 +3,9 @@ method: searched
 source: https://obvious.com/portfolio/
 summary:
   portfolio_total: 90
-  in_network: 8
-  api_providers: 5
-  missing: 82
+  in_network: 90
+  api_providers: 7
+  missing: 0
   stubs_created: 0
 companies:
 - name: Zanskar
@@ -14,18 +14,20 @@ companies:
   sector: planetary-health
   status: active
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: zanskar
+  slug: zanskar
+  matched_by: domain
 - name: Inceptive
   url: https://inceptive.life
   description: AI for designing RNA molecules and medicines.
   sector: human-health
   status: active
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: inceptive
+  slug: inceptive
+  matched_by: name-slug
 - name: Gusto
   url: https://gusto.com
   description: Payroll, benefits, and HR platform for small businesses.
@@ -42,18 +44,19 @@ companies:
   sector: human-health
   status: ipo
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: recursion
+  slug: recursion
+  matched_by: name-slug
 - name: Planet
   url: https://planet.com
   description: 'Daily satellite imaging of the Earth (NYSE: PL).'
   sector: planetary-health
   status: ipo
   source: https://obvious.com/portfolio/
-  slug: planet-labs
+  slug: planet
   in_network: true
-  is_api_provider: true
+  is_api_provider: false
   matched_by: domain
 - name: Pyka
   url: https://flypyka.com
@@ -61,97 +64,109 @@ companies:
   sector: planetary-health
   status: active
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pyka
+  slug: pyka
+  matched_by: domain
 - name: AI Fleet
   url: https://theaifleet.com
   status: unknown
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ai-fleet
+  slug: ai-fleet
+  matched_by: name-slug
 - name: All In
   url: https://allinfood.com
   status: unknown
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: all-in
+  slug: all-in
+  matched_by: domain
 - name: Ami Labs
   url: https://amilabs.xyz
   status: unknown
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ami-labs
+  slug: ami-labs
+  matched_by: domain
 - name: Amply Power
   url: https://amplypower.com
   status: unknown
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: amply-power
+  slug: amply-power
+  matched_by: domain
 - name: Arbor
   url: https://joinarbor.com
   status: unknown
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: arbor
+  slug: arbor
+  matched_by: domain
 - name: Ataraxis
   url: https://ataraxis.ai
   status: unknown
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ataraxis
+  slug: ataraxis
+  matched_by: domain
 - name: Baton
   url: https://batonmarket.com
   status: unknown
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: baton
+  slug: baton
+  matched_by: name-slug
 - name: Beam
   url: https://beamtlc.com
   status: unknown
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: beam
+  slug: beam
+  matched_by: name-slug
 - name: Beyond Meat
   url: https://beyondmeat.com
   description: 'Plant-based meat products (NASDAQ: BYND).'
   sector: planetary-health
   status: ipo
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: beyond-meat
+  slug: beyond-meat
+  matched_by: domain
 - name: Block Renovation
   url: https://blockrenovation.com
   status: unknown
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: block-renovation
+  slug: block-renovation
+  matched_by: domain
 - name: Brightside
   url: https://gobrightside.com
   status: unknown
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: brightside
+  slug: brightside
+  matched_by: domain
 - name: Cal
   url: https://cal.com
   description: Open-source scheduling infrastructure (Cal.com).
   sector: economic-health
   status: active
   source: https://obvious.com/portfolio/
-  slug: cal-com
+  slug: 10x-science
   in_network: true
-  is_api_provider: true
+  is_api_provider: false
   matched_by: domain
 - name: Canvas
   url: https://canvas.build
@@ -169,34 +184,38 @@ companies:
   sector: human-health
   status: acquired
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: carezone
+  slug: carezone
+  matched_by: domain
 - name: ConcertoCare
   url: https://concertocare.com
   status: unknown
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: concertocare
+  slug: concertocare
+  matched_by: domain
 - name: Corvus Insurance
   url: https://corvusinsurance.com
   description: Cyber insurance; acquired by Travelers.
   sector: economic-health
   status: acquired
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: corvus-insurance
+  slug: corvus-insurance
+  matched_by: domain
 - name: Devoted
   url: https://devoted.com
   description: Medicare Advantage health plan and provider (Devoted Health).
   sector: human-health
   status: active
   source: https://obvious.com/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: devoted
+  in_network: true
+  is_api_provider: true
+  slug: devoted
+  matched_by: domain
 - name: Dexterity
   url: https://dexterity.com
   description: AI robotics for warehouse and supply-chain automation.
@@ -213,178 +232,202 @@ companies:
   sector: planetary-health
   status: active
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: diamond-foundry
+  slug: diamond-foundry
+  matched_by: name-slug
 - name: Enbala
   url: https://enbala.com
   status: unknown
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: enbala
+  slug: enbala
+  matched_by: domain
 - name: Enervee
   url: https://enervee.com
   status: unknown
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: enervee
+  slug: enervee
+  matched_by: domain
 - name: Fleetzero
   url: https://fleetzero.com
   status: unknown
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fleetzero
+  slug: fleetzero
+  matched_by: domain
 - name: Forum Mobility
   url: https://forummobility.com
   status: unknown
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: forum-mobility
+  slug: forum-mobility
+  matched_by: domain
 - name: Galileo
   url: https://galileohealth.com
   status: unknown
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: galileo
+  slug: galileo
+  matched_by: name-slug
 - name: Gandeeva
   url: https://gandeeva.com
   status: unknown
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: gandeeva
+  slug: gandeeva
+  matched_by: domain
 - name: Good Eggs
   url: https://goodeggs.com
   description: Online grocery delivery of local, sustainable food.
   sector: planetary-health
   status: active
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: good-eggs
+  slug: good-eggs
+  matched_by: domain
 - name: Grid
   url: https://getgrid.app
   status: unknown
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: grid
+  slug: grid
+  matched_by: name-slug
 - name: Halcyon
   url: https://halcyon.eco
   description: AI copilot for the clean-energy and renewables workforce.
   sector: planetary-health
   status: active
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: halcyon
+  slug: halcyon
+  matched_by: name-slug
 - name: Happiest Baby
   url: https://happiestbaby.com
   description: SNOO smart bassinet and infant sleep technology.
   sector: human-health
   status: active
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: happiest-baby
+  slug: happiest-baby
+  matched_by: domain
 - name: Hedvig
   url: https://hedvig.com
   description: Digital-first home insurance (Europe).
   sector: economic-health
   status: active
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hedvig
+  slug: hedvig
+  matched_by: domain
 - name: Hostie
   url: https://hostie.ai
   status: unknown
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hostie
+  slug: hostie
+  matched_by: domain
 - name: Howdy
   url: https://howdy.com
   status: unknown
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: howdy
+  slug: howdy
+  matched_by: domain
 - name: Inato
   url: https://inato.com
   status: unknown
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: inato
+  slug: inato
+  matched_by: domain
 - name: Incredible Health
   url: https://incrediblehq.com
   status: unknown
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: incredible-health
+  slug: incredible-health
+  matched_by: name-slug
 - name: Inductive
   url: https://inductive.bio
   status: unknown
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: inductive
+  slug: inductive
+  matched_by: domain
 - name: Inspire
   url: https://helloinspire.com
   status: unknown
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: inspire
+  slug: inspire
+  matched_by: domain
 - name: Iterative Health
   url: https://iterative.health
   status: unknown
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: iterative-health
+  slug: iterative-health-fka-iterative-scopes
+  matched_by: domain
 - name: Joy
   url: https://joy.co
   status: unknown
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: joy
+  slug: joy
+  matched_by: name-slug
 - name: Kampi
   url: https://bekampi.com
   status: unknown
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kampi
+  slug: kampi
+  matched_by: domain
 - name: Keyo
   url: https://keyo.com
   status: unknown
   source: https://obvious.com/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: keyo
+  in_network: true
+  is_api_provider: true
+  slug: keyo
+  matched_by: domain
 - name: LabGenius
   url: https://labgeni.us
   status: unknown
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: labgenius
+  slug: labgenius
+  matched_by: name-slug
 - name: Lightship
   url: https://lightshiprv.com
   status: unknown
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lightship
+  slug: lightship
+  matched_by: domain
 - name: Lilium
   url: https://lilium.com
   description: Electric vertical-takeoff jet aircraft; insolvent 2024.
@@ -399,59 +442,66 @@ companies:
   url: https://longgame.co
   status: unknown
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: long-game
+  slug: long-game
+  matched_by: domain
 - name: Long-Term Stock Exchange
   url: https://ltse.com
   description: Long-Term Stock Exchange, a national securities exchange.
   sector: economic-health
   status: active
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: long-term-stock-exchange
+  slug: ltse
+  matched_by: domain
 - name: Lynx
   url: https://lynx-fh.com
   status: unknown
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lynx
+  slug: lynx
+  matched_by: domain
 - name: Magic Leap
   url: https://magicleap.com
   description: Augmented-reality headset hardware and platform.
   sector: economic-health
   status: active
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: magic-leap
+  slug: magic-leap
+  matched_by: domain
 - name: Medable
   url: https://medable.com
   description: Decentralized clinical trial platform.
   sector: human-health
   status: active
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: medable
+  slug: medable
+  matched_by: domain
 - name: Mixt
   url: https://mixt.com
   status: unknown
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mixt
+  slug: mixt
+  matched_by: domain
 - name: Miyokos
   url: https://miyokos.com
   description: Plant-based dairy and creamery products.
   sector: planetary-health
   status: active
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: miyokos
+  slug: miyokos
+  matched_by: domain
 - name: Mosaic
   url: https://joinmosaic.com
   status: unknown
@@ -464,53 +514,60 @@ companies:
   url: https://mozi.app
   status: unknown
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mozi
+  slug: mozi
+  matched_by: domain
 - name: MycoMedica
   url: https://mycomedica.bio
   status: unknown
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mycomedica
+  slug: mycomedica
+  matched_by: name-slug
 - name: Myro
   url: https://mymyro.com
   status: unknown
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: myro
+  slug: myro
+  matched_by: domain
 - name: Nectar
   url: https://mynectar.com
   status: unknown
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: nectar
+  slug: nectar
+  matched_by: domain
 - name: Octave
   url: https://findoctave.com
   status: unknown
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: octave
+  slug: findoctave
+  matched_by: domain
 - name: Olly
   url: https://olly.com
   description: Vitamins and supplements; acquired by Unilever.
   sector: human-health
   status: acquired
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: olly
+  slug: olly
+  matched_by: domain
 - name: One
   url: https://onefinance.com
   status: unknown
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: one
+  slug: one
+  matched_by: name-slug
 - name: Openly
   url: https://openly.com
   description: Premium homeowners insurance sold through agents.
@@ -527,188 +584,213 @@ companies:
   sector: economic-health
   status: active
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: oumi
+  slug: oumi
+  matched_by: domain
 - name: Parallel Learning
   url: https://parallellearning.com
   status: unknown
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: parallel-learning
+  slug: parallel-learning
+  matched_by: domain
 - name: Pi Health
   url: https://pihealth.ai
   status: unknown
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pi-health
+  slug: pi-health
+  matched_by: domain
 - name: Plant Prefab
   url: https://plantprefab.com
   status: unknown
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: plant-prefab
+  slug: plant-prefab
+  matched_by: domain
 - name: Positive Development
   url: https://positivedevelopment.com
   status: unknown
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: positive-development
+  slug: positive-development
+  matched_by: domain
 - name: Prism Data
   url: https://prismdata.com
   status: unknown
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: prism-data
+  slug: prism-data
+  matched_by: domain
 - name: Proterra
   url: https://proterra.com
   description: Electric transit buses and EV drivetrains; filed bankruptcy 2023.
   sector: planetary-health
   status: dead
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: proterra
+  slug: proterra
+  matched_by: domain
 - name: Radical Numerics
   url: https://radicalnumerics.ai
   description: AI research lab building foundation models.
   sector: economic-health
   status: active
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: radical-numerics
+  slug: radical-numerics
+  matched_by: domain
 - name: Senken
   url: https://senken.io
   description: Carbon credit marketplace and trading platform.
   sector: planetary-health
   status: active
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: senken
+  slug: senken
+  matched_by: domain
 - name: Seriforge
   url: https://seriforge.com
   status: unknown
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: seriforge
+  slug: seriforge
+  matched_by: domain
 - name: Sighten
   url: https://sighten.io
   status: unknown
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sighten
+  slug: sighten
+  matched_by: domain
 - name: Sinai Technologies
   url: https://sinaitechnologies.com
   status: unknown
   source: https://obvious.com/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: sinai-technologies
+  in_network: true
+  is_api_provider: true
+  slug: sinai-technologies
+  matched_by: domain
 - name: Resilience
   url: https://resilience.com
   status: unknown
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: resilience
+  slug: resilience
+  matched_by: domain
 - name: Synop
   url: https://synop.ai
   status: unknown
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: synop
+  slug: synop
+  matched_by: domain
 - name: The OK Company
   url: https://theokcompany.com
   status: unknown
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: the-ok-company
+  slug: the-ok-company
+  matched_by: domain
 - name: Tomorrow Health
   url: https://tomorrowhealth.com
   status: unknown
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tomorrow-health
+  slug: tomorrow-health
+  matched_by: domain
 - name: Torch
   url: https://torch.io
   status: unknown
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: torch
+  slug: torch
+  matched_by: domain
 - name: Toucan
   url: https://toucan.earth
   description: On-chain carbon credit infrastructure.
   sector: planetary-health
   status: active
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: toucan
+  slug: toucan
+  matched_by: domain
 - name: Urban Remedy
   url: https://urbanremedy.com
   status: unknown
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: urban-remedy
+  slug: urbanremedy
+  matched_by: domain
 - name: Vsco
   url: https://vsco.co
   description: Photo and video editing and creator community app.
   sector: economic-health
   status: active
   source: https://obvious.com/portfolio/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: vsco
+  in_network: true
+  is_api_provider: true
+  slug: vsco
+  matched_by: domain
 - name: Virta Health
   url: https://virtahealth.com
   description: Virtual care for reversing type 2 diabetes.
   sector: human-health
   status: active
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: virta-health
+  slug: virta-health
+  matched_by: domain
 - name: Welly
   url: https://getwelly.com
   status: unknown
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: welly
+  slug: welly
+  matched_by: domain
 - name: Womaness
   url: https://womaness.com
   status: unknown
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: womaness
+  slug: womaness
+  matched_by: domain
 - name: Workpop
   url: https://workpop.com
   status: unknown
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: workpop
+  slug: workpop
+  matched_by: domain
 - name: Zymergen
   url: https://zymergen.com
   description: Synthetic biology; acquired by Ginkgo Bioworks.
   sector: planetary-health
   status: acquired
   source: https://obvious.com/portfolio/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: zymergen
+  slug: zymergen
+  matched_by: domain

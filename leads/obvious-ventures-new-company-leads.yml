@@ -1,4 +1,74 @@
-generated: '2026-07-22'
+generated: '2026-10-18'
 method: derived
 source_vc: obvious-ventures
-leads: []
+leads:
+- name: Recursion
+  url: https://recursionpharma.com
+  suggested_slug: recursion
+  sector: human-health
+  source_vc: obvious-ventures
+  source: https://obvious.com/portfolio/
+  stub_created: false
+- name: AI Fleet
+  url: https://theaifleet.com
+  suggested_slug: theaifleet-com
+  sector: ''
+  source_vc: obvious-ventures
+  source: https://obvious.com/portfolio/
+  stub_created: false
+- name: Baton
+  url: https://batonmarket.com
+  suggested_slug: batonmarket-com
+  sector: ''
+  source_vc: obvious-ventures
+  source: https://obvious.com/portfolio/
+  stub_created: false
+- name: Beam
+  url: https://beamtlc.com
+  suggested_slug: beamtlc-com
+  sector: ''
+  source_vc: obvious-ventures
+  source: https://obvious.com/portfolio/
+  stub_created: false
+- name: Diamond Foundry
+  url: https://diamondfoundry.com
+  suggested_slug: diamondfoundry-com
+  sector: planetary-health
+  source_vc: obvious-ventures
+  source: https://obvious.com/portfolio/
+  stub_created: false
+- name: Galileo
+  url: https://galileohealth.com
+  suggested_slug: galileohealth-com
+  sector: ''
+  source_vc: obvious-ventures
+  source: https://obvious.com/portfolio/
+  stub_created: false
+- name: Grid
+  url: https://getgrid.app
+  suggested_slug: getgrid-app
+  sector: ''
+  source_vc: obvious-ventures
+  source: https://obvious.com/portfolio/
+  stub_created: false
+- name: Incredible Health
+  url: https://incrediblehq.com
+  suggested_slug: incrediblehq-com
+  sector: ''
+  source_vc: obvious-ventures
+  source: https://obvious.com/portfolio/
+  stub_created: false
+- name: Joy
+  url: https://joy.co
+  suggested_slug: joy-co
+  sector: ''
+  source_vc: obvious-ventures
+  source: https://obvious.com/portfolio/
+  stub_created: false
+- name: LabGenius
+  url: https://labgeni.us
+  suggested_slug: labgeni-us
+  sector: ''
+  source_vc: obvious-ventures
+  source: https://obvious.com/portfolio/
+  stub_created: false

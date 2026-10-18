@@ -3,9 +3,9 @@ method: searched
 source: https://obvious.com/portfolio/
 summary:
   portfolio_total: 90
-  in_network: 90
-  api_providers: 7
-  missing: 0
+  in_network: 80
+  api_providers: 9
+  missing: 10
   stubs_created: 0
 companies:
 - name: Zanskar
@@ -44,19 +44,18 @@ companies:
   sector: human-health
   status: ipo
   source: https://obvious.com/portfolio/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: recursion
-  matched_by: name-slug
+  suggested_slug: recursion
 - name: Planet
   url: https://planet.com
   description: 'Daily satellite imaging of the Earth (NYSE: PL).'
   sector: planetary-health
   status: ipo
   source: https://obvious.com/portfolio/
-  slug: planet
+  slug: planet-labs
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Pyka
   url: https://flypyka.com
@@ -72,10 +71,10 @@ companies:
   url: https://theaifleet.com
   status: unknown
   source: https://obvious.com/portfolio/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: ai-fleet
-  matched_by: name-slug
+  x-name-collision: ai-fleet
+  suggested_slug: theaifleet-com
 - name: All In
   url: https://allinfood.com
   status: unknown
@@ -120,18 +119,18 @@ companies:
   url: https://batonmarket.com
   status: unknown
   source: https://obvious.com/portfolio/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: baton
-  matched_by: name-slug
+  x-name-collision: baton
+  suggested_slug: batonmarket-com
 - name: Beam
   url: https://beamtlc.com
   status: unknown
   source: https://obvious.com/portfolio/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: beam
-  matched_by: name-slug
+  x-name-collision: beam
+  suggested_slug: beamtlc-com
 - name: Beyond Meat
   url: https://beyondmeat.com
   description: 'Plant-based meat products (NASDAQ: BYND).'
@@ -214,7 +213,7 @@ companies:
   source: https://obvious.com/portfolio/
   in_network: true
   is_api_provider: true
-  slug: devoted
+  slug: devoted-health
   matched_by: domain
 - name: Dexterity
   url: https://dexterity.com
@@ -232,10 +231,10 @@ companies:
   sector: planetary-health
   status: active
   source: https://obvious.com/portfolio/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: diamond-foundry
-  matched_by: name-slug
+  x-name-collision: diamond-foundry
+  suggested_slug: diamondfoundry-com
 - name: Enbala
   url: https://enbala.com
   status: unknown
@@ -272,10 +271,10 @@ companies:
   url: https://galileohealth.com
   status: unknown
   source: https://obvious.com/portfolio/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: galileo
-  matched_by: name-slug
+  x-name-collision: galileo
+  suggested_slug: galileohealth-com
 - name: Gandeeva
   url: https://gandeeva.com
   status: unknown
@@ -298,10 +297,10 @@ companies:
   url: https://getgrid.app
   status: unknown
   source: https://obvious.com/portfolio/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: grid
-  matched_by: name-slug
+  x-name-collision: grid
+  suggested_slug: getgrid-app
 - name: Halcyon
   url: https://halcyon.eco
   description: AI copilot for the clean-energy and renewables workforce.
@@ -360,10 +359,10 @@ companies:
   url: https://incrediblehq.com
   status: unknown
   source: https://obvious.com/portfolio/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: incredible-health
-  matched_by: name-slug
+  x-name-collision: incredible-health
+  suggested_slug: incrediblehq-com
 - name: Inductive
   url: https://inductive.bio
   status: unknown
@@ -386,16 +385,16 @@ companies:
   source: https://obvious.com/portfolio/
   in_network: true
   is_api_provider: false
-  slug: iterative-health-fka-iterative-scopes
+  slug: iterative-health
   matched_by: domain
 - name: Joy
   url: https://joy.co
   status: unknown
   source: https://obvious.com/portfolio/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: joy
-  matched_by: name-slug
+  x-name-collision: joy
+  suggested_slug: joy-co
 - name: Kampi
   url: https://bekampi.com
   status: unknown
@@ -416,10 +415,10 @@ companies:
   url: https://labgeni.us
   status: unknown
   source: https://obvious.com/portfolio/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: labgenius
-  matched_by: name-slug
+  x-name-collision: labgenius
+  suggested_slug: labgeni-us
 - name: Lightship
   url: https://lightshiprv.com
   status: unknown
@@ -461,7 +460,7 @@ companies:
   status: unknown
   source: https://obvious.com/portfolio/
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: lynx
   matched_by: domain
 - name: Magic Leap
@@ -506,10 +505,10 @@ companies:
   url: https://joinmosaic.com
   status: unknown
   source: https://obvious.com/portfolio/
-  slug: mosaic
+  slug: solar-mosaic
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
 - name: Mozi
   url: https://mozi.app
   status: unknown
